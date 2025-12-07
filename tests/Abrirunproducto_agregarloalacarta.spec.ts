@@ -38,5 +38,6 @@ await page.locator('[data-test="shopping-cart-link"]').click();
 await expect(page.locator('[data-test="shopping-cart-badge"]')).toContainText('1');
 await expect(page.locator('[data-test="cart-contents-container"]')).toBeVisible();
 
+//test by Freddy avendaño
 
 });
